@@ -59,7 +59,9 @@ mysql -u root -p20050303YMZ
 
 指定数据库名：
 
+CREATE DATABASE IF NOT EXISTS hospital_managerment;
 USE hospital_managerment;
+
 
 导入数据：
 
