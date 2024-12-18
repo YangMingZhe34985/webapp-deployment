@@ -46,16 +46,24 @@ https://hub.docker.com/repository/docker/yang3498/web_docker-webapp
 docker-compose up -d
 
 
+查看运行的镜像
 docker ps
 
+进入数据库镜像：
 
+docker exec -it  image_names bash
 
+进入mysql镜像内部：
 
+mysql -u root -p20050303YMZ
 
+指定数据库名：
 
+USE hospital_managerment;
 
+导入数据：
 
-
+SOURCE /tmp/database_files/hospital_managerment.sql;
 
 启动项目：
 
